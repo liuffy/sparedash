@@ -1,24 +1,9 @@
-# README
+# SpareDash
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my submission for the front-end take-home challenge :-). 
 
-Things you may want to cover:
 
-* Ruby version
+##Mockup
 
-* System dependencies
+I recreated the wireframe to better internalize the look and feel I wanted to create. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
