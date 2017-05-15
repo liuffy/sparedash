@@ -1,6 +1,19 @@
 {
-  "name": "spare_dash",
-  "private": true,
+  "name": "SpareDash landing page",
+  "description": "Front end coding challenge",
+  "main": "webpack.config.js",
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuffy/sparedash"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "material-ui": "^0.18.1",
