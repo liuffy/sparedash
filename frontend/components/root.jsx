@@ -1,14 +1,20 @@
 import React from 'react';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
 import {  HashRouter as Router,
-	// Change back to BrowserRouter for prettier URL
 				  Route,
 				  NavLink } from 'react-router-dom';
+import NavBar from './nav_bar'
+import Footer from './footer';
 
+
+injectTapEventPlugin();
 
 const Root = () => {
   return(
 	  	<div>
-		  <h1>Hi!</h1>
+		  <NavBar/>
+		  <Footer/>
 		  </div>
 		  )
 }

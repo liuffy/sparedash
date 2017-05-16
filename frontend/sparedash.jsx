@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './components/root';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 
 document.addEventListener('DOMContentLoaded', () => {
