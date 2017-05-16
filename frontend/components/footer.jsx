@@ -7,11 +7,11 @@ class Footer extends React.Component{
   	return(
   	<MuiThemeProvider>
 			<div className="footer">
-			<div className="column-divs">
+			<div className="column-divs col-md-12">
 
-
+			<div className="row footer-row">
 				<div className="col-sm-4 col-md-3">
-					<h3 className="column-header">SPAREDASH</h3>
+					<h3 className="column-header-1">SPAREDASH</h3>
 
 					<ul className="link-list">
 						<li><a 
@@ -30,7 +30,7 @@ class Footer extends React.Component{
 				</div>
 
 				<div className="col-sm-4 col-md-3">
-					<h3 className="column-header">SPECIALISTS</h3>
+					<h3 className="column-header-1">SPECIALISTS</h3>
 
 					<ul className="link-list">
 							<li><a 
@@ -56,7 +56,7 @@ class Footer extends React.Component{
 				</div>
 
 				<div className="col-sm-4 col-md-3">
-					<h3 className="column-header">CONNECT</h3>
+					<h3 className="column-header-1">CONNECT</h3>
 						<ul className="link-list">
 							<li>
 							<a href="#" target="_blank" className="fa fa-facebook"></a>
@@ -67,6 +67,7 @@ class Footer extends React.Component{
 						</ul>
 				</div>
 				</div>
+			</div>
 			</div>
   	</MuiThemeProvider>
   		)

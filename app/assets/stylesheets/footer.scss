@@ -1,19 +1,29 @@
 @import 'variables';
 
-.footer{
-  position: absolute;
+.footer-row{
+  background:$blue-gray;
+  margin:0px;
+  display:block;
+  width:100%;
+  padding:2em;  
+  margin-top:1em;
   right: 0;
   left: 0;
   bottom: 0;
-  box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.2);
-  padding: 1em 2em; 
-  background-color: $blue-gray;
+}
+
+.footer{
+  right: 0;
+  left: 0;
+  bottom: 0;
   display:block;
   white-space: nowrap;
   word-wrap:break-word;
 
 
+
     .column-divs{
+      padding-left:0px !important;
 
       .column-header{
         font-family: 'Brandon Grotesque';

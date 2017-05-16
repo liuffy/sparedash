@@ -2,8 +2,8 @@ import React from 'react';
 import DropDownMenu from 'material-ui/DropDownMenu';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import FlatButton from 'material-ui/FlatButton';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const styles = {
   customWidth: {
@@ -51,6 +51,7 @@ class NavBar extends React.Component {
 		          <MenuItem value={2} primaryText="Resources" />
 
 		        </DropDownMenu>
+		         <FlatButton label="Login" />
 		      </div>
     	</MuiThemeProvider>
     );
