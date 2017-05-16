@@ -3,32 +3,22 @@
 .footer{
   position: absolute;
   right: 0;
-  min-height:150px;
   left: 0;
+  bottom: 0;
   box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.2);
-  padding: 1em;
-  padding-left:3em;
+  padding: 1em 2em; 
   background-color: $blue-gray;
   display:block;
-  bottom: 0;
   white-space: nowrap;
   word-wrap:break-word;
-  margin-top:0px;
-  margin:0 auto;
+
 
     .column-divs{
-      margin-left:60px;
-
-        .column-div{
-        vertical-align:top;
-        margin-left:50px;
-        display:inline-block;
-      }
 
       .column-header{
         font-family: 'Brandon Grotesque';
         font-weight:600;
-        font-size:16px;
+        font-size:0.5em;
         color: $darker-blue;
       }
 
@@ -36,12 +26,12 @@
         font-family: 'Brandon Grotesque Regular';
         transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
         color:$dark-blue;
-        font-size:14px;
+        font-size:0.5em;
         cursor:pointer;
-        line-height:35px;
+        line-height:25px;
 
         &:hover{
-          color: $off-white;
+          color: $crimson;
         };
       }
     }

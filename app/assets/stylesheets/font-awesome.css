@@ -16,7 +16,7 @@
   transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 0.7em;
+  font-size: 1.4em;
   border-radius:150px;
   text-rendering: auto;
   margin-right:1em;
@@ -25,7 +25,7 @@
 }
 
 .fa:hover{
-  color:#dadde5;
+  color:#992a2a;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {

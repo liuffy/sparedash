@@ -1,5 +1,4 @@
 import React from 'react';
-import IconButton from 'material-ui/IconButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class Footer extends React.Component{
@@ -11,7 +10,7 @@ class Footer extends React.Component{
 			<div className="column-divs">
 
 
-				<div className="column-div">
+				<div className="col-sm-4 col-md-3">
 					<h3 className="column-header">SPAREDASH</h3>
 
 					<ul className="link-list">
@@ -30,7 +29,7 @@ class Footer extends React.Component{
 					</ul>
 				</div>
 
-				<div className="column-div">
+				<div className="col-sm-4 col-md-3">
 					<h3 className="column-header">SPECIALISTS</h3>
 
 					<ul className="link-list">
@@ -56,9 +55,9 @@ class Footer extends React.Component{
 					</ul>
 				</div>
 
-				<div className="column-div">
+				<div className="col-sm-4 col-md-3">
 					<h3 className="column-header">CONNECT</h3>
-						<ul>
+						<ul className="link-list">
 							<li>
 							<a href="#" target="_blank" className="fa fa-facebook"></a>
 							<a href="#" target="_blank" className="fa fa-twitter"></a>
